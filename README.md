@@ -1,4 +1,4 @@
-# FinTech_Project_3
+# FinTech_Project_3: STAGE
 
 ## Statistical Arbitrage 
 
