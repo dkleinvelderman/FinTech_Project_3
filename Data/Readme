@@ -1,0 +1,6 @@
+# Here you can find:
+
+- The Jupyter Notebook for pulling the cryptos' prices from the Binance API
+- A CSV file/coin
+
+## For now all coins are quoted in relation to USDT just to have prettier numbers, but we can use "SYMBOL"/BTC too.
