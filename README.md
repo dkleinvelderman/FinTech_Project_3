@@ -19,5 +19,14 @@ Implement an automated statistical arbitrage trading application, where we'll tr
 5. Set up the algo-trading tool with visualization
 6. Produce P&L of trading strategy.  
 
+## Project Classes 
+8/22
+8/25
+8/27
+8/29
+9/01
+9/03 - Presentation Day
+
+
 
 
