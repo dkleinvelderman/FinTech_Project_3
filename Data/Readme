@@ -1,6 +1,10 @@
+
 # Here you can find:
 
-- The Jupyter Notebook for pulling the cryptos' prices from the Binance API
-- A CSV file/coin
+- The Jupyter Notebook Fl_Project3 for pulling the cryptos' prices from the Binance API, each coin at a time.
+- A CSV file/coin.
+- The Jupyter Notebook Fl_Project3_v2 with all prices in the same data frame and the correlation matrix between them.
+- 4_coins.csv that contains prices/min of all 4 coins.
 
 ## For now all coins are quoted in relation to USDT just to have prettier numbers, but we can use "SYMBOL"/BTC too.
+### There are more data points in the 4 coins.csv file in comparison to the individual csv's because the code pulls live data every minute, when you run it you'll get more too.
