@@ -181,25 +181,3 @@ loop.run_until_complete(main())
 
 
 # panel serve --log-level debug --show STAGE.py
-
-
-    short_window = 10
-
-    signals = df.copy()
-    signals["index"] = pd.to_datetime(signals["index"])
-    signals = signals.set_index("index", drop=True)
-    signals["signal"] = 0.0
-
-    # Generate the short and long moving averages
-    signals["sma10"] = signals["close"].rolling(window=10).mean()
-    signals["sma20"] = signals["close"].rolling(window=20).mean()
-
-    # Generate the trading signal 0 or 1,
-    signals["signal"][short_window:] = np.where(
-        signals["sma10"][short_window:] > signals["sma20"][short_window:], 1.0, 0.0
-    )
-
-    # Calculate the points in time at which a position should be taken, 1 or -1
-    signals["entry/exit"] = signals["signal"].diff()
-
-    signals

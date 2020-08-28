@@ -78,7 +78,7 @@ def fetch_data():
 #     kraken_public_key = os.getenv("KRAKEN_PUBLIC_KEY")
 #     kraken_secret_key = os.getenv("KRAKEN_SECRET_KEY")
 
-    binance = ccxt.binance({"apiKey": "BINANCE_PUBLIC_KEY", "secret": "BINANCE_SECRET_KEY"})
+    binance = ccxt.binance({"apiKey": "GkFIyM2AydVGyMCNpp4snFLruNyWjlu4tPFXtzdwO5Ut7J0Gc1IactPdb6ZlrJXG", "secret": "Qg5PWRdkzsHP2KiLOPk3xsPDSRNmpukdIuGYjDrDkEllX1wCTfnNzDG9in4RXExnY"})
 
     close = binance.fetch_ticker("ETH/USDT")["close"]
     datetime = binance.fetch_ticker("ETH/USDT")["datetime"]
@@ -181,25 +181,3 @@ loop.run_until_complete(main())
 
 
 # panel serve --log-level debug --show STAGE.py
-
-
-    short_window = 10
-
-    signals = df.copy()
-    signals["index"] = pd.to_datetime(signals["index"])
-    signals = signals.set_index("index", drop=True)
-    signals["signal"] = 0.0
-
-    # Generate the short and long moving averages
-    signals["sma10"] = signals["close"].rolling(window=10).mean()
-    signals["sma20"] = signals["close"].rolling(window=20).mean()
-
-    # Generate the trading signal 0 or 1,
-    signals["signal"][short_window:] = np.where(
-        signals["sma10"][short_window:] > signals["sma20"][short_window:], 1.0, 0.0
-    )
-
-    # Calculate the points in time at which a position should be taken, 1 or -1
-    signals["entry/exit"] = signals["signal"].diff()
-
-    signals
