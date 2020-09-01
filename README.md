@@ -1,4 +1,6 @@
-# FinTech_Project_3: STAGE
+# FinTech Project 3: STAGE
+
+![STAGE](./STAGE.PNG)
 
 ## Statistical Arbitrage 
 
