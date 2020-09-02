@@ -1,6 +1,6 @@
 # FinTech Project 3: STAGE
 
-![STAGE](./STAGE.PNG)
+![STAGE](./STAGE-med.gif)
 
 ## Statistical Arbitrage 
 
