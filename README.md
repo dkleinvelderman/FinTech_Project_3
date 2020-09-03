@@ -83,7 +83,7 @@ For pratical reasons we used two different exchanges for pulling in price inform
 
 Also, in this project we focused on the trading of just one pair of potentiallt correlated crypto currencies. In a real world situation statistical arbitrage usually involves diverse portfolios of up to thousands of securities. 
 
-We would like to build our STG ERC20 Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Useers can create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. 
+We would like to build our STG ERC20 under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Useers can create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. 
 
 
 
