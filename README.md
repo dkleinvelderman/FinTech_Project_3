@@ -74,6 +74,11 @@ The results were mixed:
 
 In monetary terms the strategy produced, overall, negative results. Investing $1M each time a signal was "on" produced a maximum profit of $4,306 (ARMA(1,1)_1sd with 120 minutes). The maximum loss was $8,628 when the AR(1)_1sd model was used on 120 minutes. We also found a very even number of winning and losing strategies for each model. It seems that for this specific set of data and discrete-time models used  (AR(1) and ARMA(1,1)) the strategy is not adding value.
 
+## Creating our own TOKEN
+<div align="center">
+
+![STGtoken](./Images/STG_solid_background.png)
+</div>
 
 ## Post-Mortem
 
@@ -84,9 +89,10 @@ For pratical reasons we used two different exchanges for pulling in price inform
 Also, in this project we focused on the trading of just one pair of potentiallt correlated crypto currencies. In a real world situation statistical arbitrage usually involves diverse portfolios of up to thousands of securities. 
 
 We would like to build our STG ERC20 under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Useers can create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. 
+
 <div align="center">
 
-![STGtoken](./Images/STG_solid_background.png)
+![Set_Example](./Images/Set_Protocol_example.png)
 </div>
 
 
