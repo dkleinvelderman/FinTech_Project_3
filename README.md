@@ -85,7 +85,9 @@ Also, in this project we focused on the trading of just one pair of potentiallt 
 
 We would like to build our STG ERC20 under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Useers can create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. 
 
-![STGtoken](./Images/STG_solid_background.png)
+<p align="center">
+   <img width="460" height="300"![STGtoken](./Images/STG_solid_background.png)
+</p>
 
 
 
