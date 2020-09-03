@@ -23,7 +23,7 @@ The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange
 
 ## Our Algorithm
 
-SHORT OVERVIEW OF THEORY / MATHEMATICAL CHOICES 
+SHORT OVERVIEW OF THEORY / MATHEMATICAL CHOICES / REGRESSION AR AND ARMA
 
 
 ## Trading with the Algorithm: Binance and Kucoin
