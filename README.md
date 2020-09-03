@@ -3,7 +3,7 @@
 ![STAGE](./STAGE-med.gif)
 
 ## Statistical Arbitrage: Mean Reversion Analyses in the Crypto Market
-*A Python-powered quantatative, analytical approach to pairs trading on the Crypto Market by Juan Cajigas, Francisco Lopez, Daniel Klein Velderman and Steffen Westerburger
+*A Python-powered quantatative, analytical approach to pairs trading on the Crypto Market by Juan Cajigas, Francisco Lopez, Daniel Klein Velderman and Steffen Westerburger*
 
 ## Introduction
 
