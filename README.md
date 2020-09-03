@@ -85,7 +85,7 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 
 <p float="left">
   <img src="/./Images/STG_sol.png" width="500" />
-  <img src="/./Images/STG_metamask.png" width="500" height="480" /> 
+  <img src="/./Images/STG_metamask.png" width="200" height="380" /> 
  
 </p>
  #![STG_sol]()|![STG_metamask](./Images/STG_metamask.png)
