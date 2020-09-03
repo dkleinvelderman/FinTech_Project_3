@@ -80,6 +80,11 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 ![STGtoken](./Images/STG_solid_background.png)
 </div>
 
+- We minted the STG token based on our strategy. We used the ERC20 standard so that it can be transferred and traded on exchanges.
+- When buying our token, you will be following out trading strategy in a simple way.
+
+![STG_sol](./Images/STG_SOL.png)
+
 ## Post-Mortem
 
 This project provided us with a unique opportunity to explore several trade strategies focusing on statistical arbitrage. Statistical arbitrage is a very theoretical and complicated subject which heavily relies on being able to engage in well informed high-frequency trading.
@@ -88,7 +93,8 @@ For pratical reasons we used two different exchanges for pulling in price inform
 
 Also, in this project we focused on the trading of just one pair of potentiallt correlated crypto currencies. In a real world situation statistical arbitrage usually involves diverse portfolios of up to thousands of securities. 
 
-We would like to build our STG ERC20 under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Useers can create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. 
+We would like to build our STG ERC20 as a TokenSet under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. 
+Each Set is a smart basket ERC20 token of crypto assets that automatically rebalances based on the strategy you choose.  
 
 <div align="center">
 
