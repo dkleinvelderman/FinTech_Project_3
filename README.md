@@ -77,7 +77,7 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 ## Creating our own TOKEN
 <div align="center">
 
-![STGtoken](./Images/STG_solid_background.png)
+![STGtoken](./Images/STG_solid_background.PNG)
 </div>
 
 - We minted the STG token based on our strategy. We used the ERC20 standard so that it can be transferred and traded on exchanges.
