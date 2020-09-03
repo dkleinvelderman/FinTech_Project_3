@@ -95,7 +95,9 @@ This project provided us with a unique opportunity to explore several trade stra
 
 For pratical reasons we used two different exchanges for pulling in price information and making the actual trades. In any real world trading situation this would not be a clever strategy since even the tiniest of discrepencies between exchanges potentially have great impact on the success or failure of these strategies. 
 
-Also, in this project we focused on the trading of just one pair of potentiallt correlated crypto currencies. In a real world situation statistical arbitrage usually involves diverse portfolios of up to thousands of securities. 
+Also, in this project we focused on the trading of just one pair of potential alt correlated crypto currencies. In a real world situation statistical arbitrage usually involves diverse portfolios of up to thousands of securities. 
+
+In addition, we would like to upload our code to AWS, to use lambda functions instead of using our local computers as a server.
 
 We would like to build our STG ERC20 as a TokenSet under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. 
 Each Set is a smart basket ERC20 token of crypto assets that automatically rebalances based on the strategy you choose.  
