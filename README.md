@@ -30,7 +30,7 @@ SHORT OVERVIEW OF THEORY / MATHEMATICAL CHOICES / REGRESSION AR AND ARMA
 
 As aforementioned, we use both Binance and Kucoin in this project to trade based on our developed algorithm. Kucoin provides a free sandbox environment to this end. 
 
-ADD SCREENSHOTS
+![LIVE](./live-trade.gif)
 
 ## Backtesting
 
