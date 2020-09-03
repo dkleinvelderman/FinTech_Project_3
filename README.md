@@ -107,9 +107,9 @@ Each Set is a smart basket ERC20 token of crypto assets that automatically rebal
 <div style="text-align: right"> 
   <table>
     <tr>
-      <td><align=center><img src="./Images/col.gif" width=75 height=50></td>
-      <td><align=center><img src="./Images/nl.png" width=75 height=50></td>
-      <td><align=center><img src="./Images/mex.png" width=75 height=50></td>
+      <td><text-align:center><img src="./Images/col.gif" width=75 height=50></td>
+      <td><text-align:center><img src="./Images/nl.png" width=75 height=50></td>
+      <td><text-align:center><img src="./Images/mex.png" width=75 height=50></td>
     </tr>
    </table>
 </div>
