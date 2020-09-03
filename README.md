@@ -23,7 +23,37 @@ The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange
 
 ## Our Algorithm
 
-SHORT OVERVIEW OF THEORY / MATHEMATICAL CHOICES / REGRESSION AR AND ARMA
+Step 1: Establish a linear relationship between the return of the two cryptocurrencies:
+
+![equation1](Equation1.png)
+
+Step 2: Estimate the parameters in the linear regression and save the vector of residuals (epsilon)
+Expressing the residuals as a function of the two cryptocurrencies, and redefining them as Xt (to emphasize time dependence) we have the following:
+
+![equation2](Equation2.png)
+
+The main hypothesis in Statistical Arbitrage is that the vector Xt is mean reverting. Mathematically we can define a mean-reverting process as a Ornstein-Uhlenbeck (OU) stochastic differential equation:
+
+![equation3](Equation3.png)
+
+The meaning of the parameters in the OU process is this:
+
+![equation4](Equation4.png)
+
+Step 3: We have discrete-time data. In order to estimate the parameters in the OU process we can approximate it to an Autoregressive process or order one AR(1):
+
+![equation5](Equation5.png)
+
+Step 4: The relationships between the parameters in the AR(1) process and the parameters that we need in the OU process are the following:
+
+![equation6](Equation6.png)
+
+Step 5: We can then generate a trading signal that indicates the number of units of mismatch in terms of the volatility of the OU process:
+
+![equation7](Equation7.png)
+
+
+
 
 
 ## Trading with the Algorithm: Binance and Kucoin
@@ -34,11 +64,16 @@ As aforementioned, we use both Binance and Kucoin in this project to trade based
 
 ## Backtesting
 
-In order to test whether our algorithm is a could potentially provide us with valuable/profitable trading insights, it is important to properly backtest our algorithm by testing it with historical data. In doing so we can determine the performance of our algorithm, as well as determine under what conditions it performs best (for exmaple in terms of number of standard deviations from the mean between to correlated stocks).
+In order to test whether our algorithm is a could potentially provide us with valuable/profitable trading insights, it is important to properly backtest our algorithm by testing it with historical data. In doing so we can determine the performance of our algorithm, as well as determine under what conditions it performs best (for example in terms of number of standard deviations from the mean between to correlated stocks).
 
-We backtested our algorithm using historical data of the correlarion between BTC and ETH. We tested out code's performance with three different standard deviation levels: 0.5, 1 and 1.5.
+We backtested our algorithm using historical data of the correlation between LTCUSDT (dependent variable) and EOSUSDT (independent variable). We tested out code's performance with two different standard deviation levels: 1 and 2.
 
-ADD SCREENSHOTS/ EXPLANATION
+The results were mixed:
+
+![results_backtesting](results_backtesting.png)
+
+In monetary terms the strategy produced, overall, negative results. Investing $1M each time a signal was "on" produced a maximum profit of $4,306 (ARMA(1,1)_1sd with 120 minutes). The maximum loss was $8,628 when the AR(1)_1sd model was used on 120 minutes. We also found a very even number of winning and losing strategies for each model. It seems that for this specific set of data and discrete-time models used  (AR(1) and ARMA(1,1)) the strategy is not adding value.
+
 
 ## Post-Mortem
 
