@@ -84,11 +84,11 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 - When buying our token, you will be following out trading strategy in a simple way.
 
 <p float="left">
-  <img src="/./Images/STG_sol.png" width="850" height="380" />
+  <img src="/./Images/STG_sol.png" width="750" height="380" />
   <img src="/./Images/STG_metamask.png" width="200" height="380" /> 
  
 </p>
- #![STG_sol]()|![STG_metamask](./Images/STG_metamask.png)
+
 
 
 ## Post-Mortem
