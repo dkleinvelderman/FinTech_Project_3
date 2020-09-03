@@ -25,7 +25,7 @@ The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange
 
 Step 1: Establish a linear relationship between the return of the two cryptocurrencies:
 
-![equation1](Equation1.PNG)
+![equation1](Equation1.png)
 
 Step 2: Estimate the parameters in the linear regression and save the vector of residuals (epsilon)
 Expressing the residuals as a function of the two cryptocurrencies, and redefining them as Xt (to emphasize time dependence) we have the following:
