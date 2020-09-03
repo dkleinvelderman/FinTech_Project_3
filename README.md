@@ -1,6 +1,6 @@
 # FinTech Project 3: STAGE
 
-![STAGE](./STAGE-med.gif)
+![STAGE](./Images/STAGE-med.gif)
 
 ## Statistical Arbitrage: Mean Reversion Analyses in the Crypto Market
 *A Python-powered quantitative, analytical approach to pairs trading on the Crypto Market by Juan Cajigas, Francisco Lopez, Daniel Klein Velderman and Steffen Westerburger*
@@ -25,32 +25,32 @@ The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange
 
 Step 1: Establish a linear relationship between the return of the two cryptocurrencies:
 
-![equation1](Equation1.PNG)
+![equation1](./Images/Equation1.PNG)
 
 Step 2: Estimate the parameters in the linear regression and save the vector of residuals (epsilon)
 Expressing the residuals as a function of the two cryptocurrencies, and redefining them as Xt (to emphasize time dependence) we have the following:
 
-![equation2](Equation2.PNG)
+![equation2](./Images/Equation2.PNG)
 
 The main hypothesis in Statistical Arbitrage is that the vector Xt is mean reverting. Mathematically we can define a mean-reverting process as a Ornstein-Uhlenbeck (OU) stochastic differential equation:
 
-![equation3](Equation3.PNG)
+![equation3](./Images/Equation3.PNG)
 
 The meaning of the parameters in the OU process is this:
 
-![equation4](Equation4.PNG)
+![equation4](./Images/Equation4.PNG)
 
 Step 3: We have discrete-time data. In order to estimate the parameters in the OU process we can approximate it to an Autoregressive process or order one AR(1):
 
-![equation5](Equation5.PNG)
+![equation5](./Images/Equation5.PNG)
 
 Step 4: The relationships between the parameters in the AR(1) process and the parameters that we need in the OU process are the following:
 
-![equation6](Equation6.PNG)
+![equation6](./Images/Equation6.PNG)
 
 Step 5: We can then generate a trading signal that indicates the number of units of mismatch in terms of the volatility of the OU process:
 
-![equation7](Equation7.PNG)
+![equation7](./Images/Equation7.PNG)
 
 
 
@@ -60,7 +60,7 @@ Step 5: We can then generate a trading signal that indicates the number of units
 
 As aforementioned, we use both Binance and Kucoin in this project to trade based on our developed algorithm. Kucoin provides a free sandbox environment to this end. 
 
-![LIVE](./live-trade.gif)
+![LIVE](./Images/live-trade.gif)
 
 ## Backtesting
 
@@ -70,7 +70,7 @@ We backtested our algorithm using historical data of the correlation between LTC
 
 The results were mixed:
 
-![results_backtesting](results_backtesting.PNG)
+![results_backtesting](./Images/results_backtesting.PNG)
 
 In monetary terms the strategy produced, overall, negative results. Investing $1M each time a signal was "on" produced a maximum profit of $4,306 (ARMA(1,1)_1sd with 120 minutes). The maximum loss was $8,628 when the AR(1)_1sd model was used on 120 minutes. We also found a very even number of winning and losing strategies for each model. It seems that for this specific set of data and discrete-time models used  (AR(1) and ARMA(1,1)) the strategy is not adding value.
 
