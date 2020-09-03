@@ -84,9 +84,8 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 - When buying our token, you will be following out trading strategy in a simple way.
 
 <p float="left">
-  <img src="/./Images/STG_sol.png" width="750" height="380" />
+  <img src="/./Images/STG_sol.png" width="700" height="380" />
   <img src="/./Images/STG_metamask.png" width="200" height="380" /> 
- 
 </p>
 
 
@@ -102,10 +101,8 @@ Also, in this project we focused on the trading of just one pair of potentiallt 
 We would like to build our STG ERC20 as a TokenSet under the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. 
 Each Set is a smart basket ERC20 token of crypto assets that automatically rebalances based on the strategy you choose.  
 
-<div align="center">
-
 ![Set_Example](./Images/Set_Protocol_example.png)
-</div>
+
 
 
 
