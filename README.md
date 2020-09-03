@@ -19,7 +19,7 @@ We developed an algorithm using Python to help us trade on potentially correlate
 
 In this project we build on two main data sources. We use the [Binance](www.binance.com) exchange API integration for Python to pull in realtime time minute to minute price information on the crypto currencies of choice. Binance is a well known name in the industry and operates as the worlds biggest bitcoin exchange and altcoin crypto exchange in the world by volume. To use the Binance integration with Python, one needs to sign up to receive API-keys as well as install the Binance library by using  **pip install python-binance**.
 
-The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange that provides users with a unique sandbox environment to test their trading strategied. Using Kucoin we were able to place automated fictional trades with our Pythin algorithm based on real time price information we pulled in from Binance. To use Kucoin one needs to sign up for the Sandbox environment and install the Kucoin library by using **pip install python-kucoin**.
+The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange that provides users with a unique sandbox environment to test their trading strategies. Using Kucoin we were able to place automated fictional trades with our Pythin algorithm based on real time price information we pulled in from Binance. To use Kucoin one needs to sign up for the Sandbox environment and install the Kucoin library by using **pip install python-kucoin**.
 
 ## Our Algorithm
 
