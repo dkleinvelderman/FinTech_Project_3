@@ -70,7 +70,7 @@ We backtested our algorithm using historical data of the correlation between LTC
 
 The results were mixed:
 
-![results_backtesting](results_backtesting.png)
+![results_backtesting](results_backtesting.PNG)
 
 In monetary terms the strategy produced, overall, negative results. Investing $1M each time a signal was "on" produced a maximum profit of $4,306 (ARMA(1,1)_1sd with 120 minutes). The maximum loss was $8,628 when the AR(1)_1sd model was used on 120 minutes. We also found a very even number of winning and losing strategies for each model. It seems that for this specific set of data and discrete-time models used  (AR(1) and ARMA(1,1)) the strategy is not adding value.
 
