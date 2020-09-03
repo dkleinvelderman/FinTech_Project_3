@@ -25,32 +25,32 @@ The second source we use is [Kucoin](www.kucoin.com) which is a Bitcoin exchange
 
 Step 1: Establish a linear relationship between the return of the two cryptocurrencies:
 
-![equation1](Equation1.png)
+![equation1](Equation1.PNG)
 
 Step 2: Estimate the parameters in the linear regression and save the vector of residuals (epsilon)
 Expressing the residuals as a function of the two cryptocurrencies, and redefining them as Xt (to emphasize time dependence) we have the following:
 
-![equation2](Equation2.png)
+![equation2](Equation2.PNG)
 
 The main hypothesis in Statistical Arbitrage is that the vector Xt is mean reverting. Mathematically we can define a mean-reverting process as a Ornstein-Uhlenbeck (OU) stochastic differential equation:
 
-![equation3](Equation3.png)
+![equation3](Equation3.PNG)
 
 The meaning of the parameters in the OU process is this:
 
-![equation4](Equation4.png)
+![equation4](Equation4.PNG)
 
 Step 3: We have discrete-time data. In order to estimate the parameters in the OU process we can approximate it to an Autoregressive process or order one AR(1):
 
-![equation5](Equation5.png)
+![equation5](Equation5.PNG)
 
 Step 4: The relationships between the parameters in the AR(1) process and the parameters that we need in the OU process are the following:
 
-![equation6](Equation6.png)
+![equation6](Equation6.PNG)
 
 Step 5: We can then generate a trading signal that indicates the number of units of mismatch in terms of the volatility of the OU process:
 
-![equation7](Equation7.png)
+![equation7](Equation7.PNG)
 
 
 
