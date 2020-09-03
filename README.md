@@ -75,7 +75,8 @@ The results were mixed:
 In monetary terms the strategy produced, overall, negative results. Investing $1M each time a signal was "on" produced a maximum profit of $4,306 (ARMA(1,1)_1sd with 120 minutes). The maximum loss was $8,628 when the AR(1)_1sd model was used on 120 minutes. We also found a very even number of winning and losing strategies for each model. It seems that for this specific set of data and discrete-time models used  (AR(1) and ARMA(1,1)) the strategy is not adding value.
 
 ## STG TOKEN
-![STGtoken](./Images/STG.png)
+
+<div style="text-align:center"><img src="./Images/STG_transparent_background.png" /></div>
 
 - We minted the STG token based on our strategy. We used the ERC20 standard so that it can be transferred and traded on exchanges.
 - When buying our token, you will be following out trading strategy in a simple way.
