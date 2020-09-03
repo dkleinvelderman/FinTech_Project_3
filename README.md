@@ -83,11 +83,12 @@ In monetary terms the strategy produced, overall, negative results. Investing $1
 - We minted the STG token based on our strategy. We used the ERC20 standard so that it can be transferred and traded on exchanges.
 - When buying our token, you will be following out trading strategy in a simple way.
 
-<p float="left">
-  <img src="/./Images/STG_sol.png" width="700" height="380" />
-  <img src="/./Images/STG_metamask.png" width="200" height="380" /> 
-</p>
-
+<table>
+  <tr>
+    <td><img src="/./Images/STG_sol.png" width=6500 height=380></td>
+    <td><img src="/./Images/STG_metamask.png" width=200 height=380></td>
+  </tr>
+ </table>
 
 
 ## Post-Mortem
